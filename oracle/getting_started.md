@@ -3,6 +3,7 @@
 
 Guía en formato Markdown para:
 
+- Crear un usuario en OCI
 - Crear infraestructura de red en Oracle Cloud (OCI).
 - Crear una VM Always Free con Ubuntu.
 - Conectarse vía SSH desde Windows.
@@ -12,6 +13,25 @@ Guía en formato Markdown para:
 - Entender qué imágenes se pueden usar en Always Free.
 
 ---
+
+## 0. Cuenta, identidad y requisitos previos en OCI
+
+### Regiones y disponibilidad de Always Free
+Al crear la cuenta, **la región no se puede cambiar después**.  
+Oracle ya no publica una lista fija de regiones compatibles con *Always Free*: la disponibilidad depende de
+la demanda del momento. Durante el registro, Oracle indica si el *Always Free* está disponible en la región que elijas.
+
+Recomendación práctica basada en disponibilidad real (2025):  
+- Mejor disponibilidad: **São Paulo, Ashburn, Phoenix**  
+- Peor disponibilidad: varias regiones europeas y asiáticas (frecuentemente sin capacidad free)
+  
+### Diferencia entre Free Tier y Free Trial
+- **Always Free (Free Tier):** recursos gratuitos permanentes (pero limitados).  
+- **Free Trial:** crédito de 300 USD válido por **30 días**; después los recursos pasan a ser facturables si no los eliminás.
+
+> No confundir: *Free Tier* = gratis para siempre.  
+> *Free Trial* = gratis por 30 días y luego te cobran.
+
 
 ## 1. Arquitectura general por capas
 
