@@ -3,6 +3,9 @@
 Repositorio con guías prácticas y directas, pensadas para resolver problemas reales en el día a día del desarrollo.  
 Incluye configuraciones, ejemplos, buenas prácticas y procedimientos paso a paso.
 
+> ⚠️ **Estado del proyecto:** en construcción.  
+> Actualmente solo está disponible la guía de **Oracle**; las guías de **Node.js** y **Angular** se irán agregando progresivamente.
+
 ## 📌 Contenido
 - [**Oracle**](https://github.com/JHProyectos/guides/tree/main/oracle)
 
